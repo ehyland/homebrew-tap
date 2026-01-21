@@ -3,7 +3,7 @@ cask "pmm2" do
   name "pmm2"
   desc "Package Manager Manager v2"
   homepage "https://github.com/ehyland/pmm2"
-  version "2.0.0-alpha.4"
+  version "2.0.0-alpha.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pmm2" do
   on_macos do
     on_intel do
       url "https://github.com/ehyland/pmm2/releases/download/v#{version}/pmm2_Darwin_x86_64.tar.gz"
-      sha256 "b2bc9b10ef0b4b1071be24ab399dc57bc527c1815ec97b60875b204f28218406"
+      sha256 "fefb6a62a802f8ff4b42a130ad0496018b4e7e5bd65c96c261d9e33091040cd3"
     end
     on_arm do
       url "https://github.com/ehyland/pmm2/releases/download/v#{version}/pmm2_Darwin_arm64.tar.gz"
-      sha256 "f7e154c46bc7af78aee45a97e942dc821874433f2bff79a147859eb02d65e17b"
+      sha256 "4ae6d1fc97f14586170b350c677afd54720c5939ae116e748c4a86729806610d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ehyland/pmm2/releases/download/v#{version}/pmm2_Linux_x86_64.tar.gz"
-      sha256 "5914b2ee5c905c4d2575bce1e4fd1820d20ec27731272d3be888ee53f097ebb7"
+      sha256 "926b1e73f212cdcfe12c9901016a3f71e8e0d52fa4330a1f03cbf393070a9492"
     end
     on_arm do
       url "https://github.com/ehyland/pmm2/releases/download/v#{version}/pmm2_Linux_arm64.tar.gz"
-      sha256 "aa1b0d5991d738f0dc94caa0fdfdda767dd4f3c5f4a7b50c56a24749faddb037"
+      sha256 "20f73863b3c556efb6e81191021ce20d1fd6092b732c16d9ecc0162af6c8a77d"
     end
   end
 
